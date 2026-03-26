@@ -395,7 +395,7 @@ function apiCall(action, body=null) {
 
 // ── LOAD ──────────────────────────────────────────────────
 async function loadData() {
-  if(API_URL==='PEGAR_URL_APPS_SCRIPT_AQUI'){
+  if(API_URL==='https://script.google.com/macros/s/AKfycbwO3EggLwCF_ptjBpRRpdkbsFmr-Tb8IiFZ3uzuL0q-XnQgCb1mkns5-LKM64hj8A4j/exec'){
     document.getElementById('header-meta').textContent='⚠️ Configure la URL del Apps Script';
     document.getElementById('loading').classList.add('hidden');
     toast('Configure la URL del Apps Script en el código','warn'); return;
